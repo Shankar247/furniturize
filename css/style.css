@@ -19,13 +19,14 @@ body {
 }
 
 .logo {
-  height: 2.2rem;
+  height: 3.5rem;
+  margin-top: 5px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #e0e0e2;
+  background-color: #c4c3d0;
   align-items: center;
   height: 7.2rem;
   padding: 0 4.8rem;
@@ -46,7 +47,7 @@ body {
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: #000;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -55,4 +56,55 @@ body {
 .main-nav-link.cta:link,
 .main-nav-link.cta:visited {
   padding: 0rem 2.4rem;
+}
+
+.section-hero {
+  background-color: #c4c3d0;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+  color: #333;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.summary-text {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #fff;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #000;
+  background-color: #ffe135;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #fff44f;
 }
