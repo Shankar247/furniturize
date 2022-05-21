@@ -108,3 +108,72 @@ body {
 .main-nav-link.nav-cta:active {
   background-color: #fff44f;
 }
+
+/*ABOUT SECTION*/
+
+.about-section {
+  background-color: #c4c3d0;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.about-section-header {
+  font-size: 6rem;
+  text-align: center;
+  color: black;
+}
+
+.about-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8.4rem;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.about-01,
+.about-02,
+.about-03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  background-color: rgba(129, 130, 150, 0.341);
+  padding: 2rem 0;
+  border-radius: 2rem;
+}
+
+.about-num {
+  font-size: 8.4rem;
+  color: rgb(38, 31, 31);
+}
+
+.about-img {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.about-text {
+  font-size: 2.4rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-list {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #000;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.about-heading {
+  margin-bottom: 3rem;
+  color: #000;
+}
