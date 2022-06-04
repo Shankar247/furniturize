@@ -13,6 +13,6 @@ const stickyHeader = (entries) => {
 const headerObserver = new IntersectionObserver(stickyHeader, {
   root: null,
   threshold: 0,
-  rootMargin: `-`${headerHeight}px`,
+  rootMargin: `-${headerHeight}px`,
 });
 headerObserver.observe(section_hero);
