@@ -1,5 +1,7 @@
 const header = document.querySelector(".header");
-const section_hero = document.querySelector(".section-hero");
+const sectionHero = document.querySelector(".section-hero");
+const sectionAbout = document.querySelector(".section-about");
+const actionBtn = document.querySelector("#action-button");
 const headerHeight = header.getBoundingClientRect().height;
 
 const stickyHeader = (entries) => {
@@ -15,4 +17,9 @@ const headerObserver = new IntersectionObserver(stickyHeader, {
   threshold: 0,
   rootMargin: `-${headerHeight}px`,
 });
-headerObserver.observe(section_hero);
+headerObserver.observe(sectionHero);
+
+actionBtn.addEventListener("click", (e) => {
+  const s1coords = sectionAbout.getBoundingClientRect();
+  console.log(s1coords);
+});
